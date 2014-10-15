@@ -13,6 +13,7 @@
 		5698E24219D67EB70015204D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5698E24119D67EB70015204D /* Images.xcassets */; };
 		5698E24519D67EB70015204D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5698E24319D67EB70015204D /* LaunchScreen.xib */; };
 		5698E25119D67EB80015204D /* BlockAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5698E25019D67EB80015204D /* BlockAnimationTests.swift */; };
+		5698E25B19D6805C0015204D /* cat_grumpy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5698E25A19D6805C0015204D /* cat_grumpy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5698E24A19D67EB80015204D /* BlockAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5698E24F19D67EB80015204D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5698E25019D67EB80015204D /* BlockAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockAnimationTests.swift; sourceTree = "<group>"; };
+		5698E25A19D6805C0015204D /* cat_grumpy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_grumpy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		5698E23719D67EB70015204D /* BlockAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				5698E25A19D6805C0015204D /* cat_grumpy.png */,
 				5698E23A19D67EB70015204D /* AppDelegate.swift */,
 				5698E23C19D67EB70015204D /* ViewController.swift */,
 				5698E23E19D67EB70015204D /* Main.storyboard */,
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5698E25B19D6805C0015204D /* cat_grumpy.png in Resources */,
 				5698E24019D67EB70015204D /* Main.storyboard in Resources */,
 				5698E24519D67EB70015204D /* LaunchScreen.xib in Resources */,
 				5698E24219D67EB70015204D /* Images.xcassets in Resources */,

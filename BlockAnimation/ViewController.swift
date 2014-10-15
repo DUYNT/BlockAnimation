@@ -9,16 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var cat: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
+    override func loadView() {
+        super.loadView()
+        self.cat.center = CGPointMake(80, 50)
+        UIView.animateWithDuration(1, animations: {
+            self.cat.center = CGPointMake(400, 300)
+            }, completion: { finished in
+                UIView.animateWithDuration(2, animations: {
+                    self.cat.center = CGPointMake(100, 500)
+                    }, completion: nil)
+        })
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
+  
 
 
 }
